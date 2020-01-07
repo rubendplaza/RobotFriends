@@ -1,26 +1,26 @@
 export const robots = [
   {
     id: 1,
-    name: 'Leanne Graham',
-    username: 'Bret',
+    name: 'Elliot Alderson',
+    username: 'SamSepiol',
     email: 'Sincere@april.biz'
   },
   {
     id: 2,
-    name: 'Ervin Howell',
-    username: 'Antonette',
+    name: 'Mr. Robot',
+    username: 'Dad',
     email: 'Shanna@melissa.tv'
   },
   {
     id: 3,
-    name: 'Clementine Bauch',
-    username: 'Samantha',
+    name: 'Darlene Alderson',
+    username: 'The Key',
     email: 'Nathan@yesenia.net'
   },
   {
     id: 4,
-    name: 'Patricia Lebsack',
-    username: 'Karianne',
+    name: 'Angela Moss',
+    username: 'Claudia Kincaid',
     email: 'Julianne.OConner@kory.org'
   },
   {
