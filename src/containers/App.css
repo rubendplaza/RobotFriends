@@ -10,3 +10,18 @@ h1 {
   font-weight: 200;
   color: rgb(255, 0, 0);
 }
+
+h2 {
+  font-family: 'SEGA LOGO FONT';
+  font-weight: 100;
+  font-size: medium;
+  color: rgb(255, 0, 0);
+}
+
+p {
+  font-family: 'SEGA LOGO FONT';
+  font-weight: 50;
+  font-size: small;
+  color: rgb(255, 0, 0);
+}
+

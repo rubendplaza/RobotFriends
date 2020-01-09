@@ -3,6 +3,7 @@ import CardList from '../components/CardList';
 import SearchBox from '../components/SearchBox';
 import './App.css';
 import Scroll from '../components/Scroll';
+import { robots } from '../robots';
 
 //Lifecycle hooks are built in with react, they get run everytime a component does something, the three types are:
 //1. mounting
@@ -22,9 +23,10 @@ class App extends React.Component {
   //this is a lifecycle hook therefore is executed at runtime and does not need to be called
   componentDidMount() {
     //fetch is a method of the window object
-    fetch('https://jsonplaceholder.typicode.com/users')
-      .then(response => response.json())
-      .then(users => this.setState({ robots: users }));
+    // fetch('https://jsonplaceholder.typicode.com/users')
+    //   .then(response => response.json())
+    //   .then(users => this.setState({ robots: users }));
+    this.setState({ robots: robots });
   }
 
   //since this is our own function we need to use arrow functions, functions built in with react do not need to be arrow functions
