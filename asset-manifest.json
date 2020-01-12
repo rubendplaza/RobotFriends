@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/RobotFriends/static/css/main.d3480591.chunk.css",
+    "main.js": "/RobotFriends/static/js/main.6eed4650.chunk.js",
+    "main.js.map": "/RobotFriends/static/js/main.6eed4650.chunk.js.map",
+    "runtime-main.js": "/RobotFriends/static/js/runtime-main.2973dfde.js",
+    "runtime-main.js.map": "/RobotFriends/static/js/runtime-main.2973dfde.js.map",
+    "static/css/2.eb45ad44.chunk.css": "/RobotFriends/static/css/2.eb45ad44.chunk.css",
+    "static/js/2.007a6dc4.chunk.js": "/RobotFriends/static/js/2.007a6dc4.chunk.js",
+    "static/js/2.007a6dc4.chunk.js.map": "/RobotFriends/static/js/2.007a6dc4.chunk.js.map",
+    "index.html": "/RobotFriends/index.html",
+    "precache-manifest.4c458095f9aefa4639463cf34529a803.js": "/RobotFriends/precache-manifest.4c458095f9aefa4639463cf34529a803.js",
+    "service-worker.js": "/RobotFriends/service-worker.js",
+    "static/css/2.eb45ad44.chunk.css.map": "/RobotFriends/static/css/2.eb45ad44.chunk.css.map",
+    "static/css/main.d3480591.chunk.css.map": "/RobotFriends/static/css/main.d3480591.chunk.css.map",
+    "static/js/2.007a6dc4.chunk.js.LICENSE": "/RobotFriends/static/js/2.007a6dc4.chunk.js.LICENSE",
+    "static/media/App.css": "/RobotFriends/static/media/SEGA.12a3db8b.woff",
+    "static/media/angela.jpeg": "/RobotFriends/static/media/angela.304eddde.jpeg",
+    "static/media/darlene.jpeg": "/RobotFriends/static/media/darlene.1e7fca2d.jpeg",
+    "static/media/dom.jpeg": "/RobotFriends/static/media/dom.ce1b67ca.jpeg",
+    "static/media/elliot.jpeg": "/RobotFriends/static/media/elliot.b39ca1cf.jpeg",
+    "static/media/gideon.jpeg": "/RobotFriends/static/media/gideon.891afd6d.jpeg",
+    "static/media/joanna.jpeg": "/RobotFriends/static/media/joanna.a6db3c02.jpeg",
+    "static/media/krista.jpeg": "/RobotFriends/static/media/krista.0317fe74.jpeg",
+    "static/media/mrrobot.jpeg": "/RobotFriends/static/media/mrrobot.5f6401bd.jpeg",
+    "static/media/price.jpeg": "/RobotFriends/static/media/price.a647bf46.jpeg",
+    "static/media/scott.jpeg": "/RobotFriends/static/media/scott.6365ea23.jpeg",
+    "static/media/shayla.jpeg": "/RobotFriends/static/media/shayla.d3f3a4fb.jpeg",
+    "static/media/susan.jpeg": "/RobotFriends/static/media/susan.147d49b1.jpeg",
+    "static/media/tyrell.jpeg": "/RobotFriends/static/media/tyrell.efc9b00b.jpeg",
+    "static/media/vera.jpeg": "/RobotFriends/static/media/vera.ea2f2555.jpeg",
+    "static/media/whiterose.jpeg": "/RobotFriends/static/media/whiterose.2ecf2ea3.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2973dfde.js",
+    "static/css/2.eb45ad44.chunk.css",
+    "static/js/2.007a6dc4.chunk.js",
+    "static/css/main.d3480591.chunk.css",
+    "static/js/main.6eed4650.chunk.js"
+  ]
+}
