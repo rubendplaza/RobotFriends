@@ -1,14 +1,21 @@
 import React from 'react';
 import './Image.css';
-import angela from '../res/angela2.jpeg';
-import darlene from '../res/darlene2.jpeg';
-import dom from '../res/dom2.jpeg';
-import elliot from '../res/elliot2.jpeg';
-import mrrobot from '../res/mrrobot2.jpeg';
-import price from '../res/price2.jpeg';
-import joanna from '../res/joanna2.jpeg';
-import tyrell from '../res/tyrell2.jpeg';
+import angela from '../res/angela.jpeg';
+import darlene from '../res/darlene.jpeg';
+import dom from '../res/dom.jpeg';
+import elliot from '../res/elliot.jpeg';
+import mrrobot from '../res/mrrobot.jpeg';
+import price from '../res/price.jpeg';
+import joanna from '../res/joanna.jpeg';
+import tyrell from '../res/tyrell.jpeg';
 import whiterose from '../res/whiterose.jpeg';
+import susan from '../res/susan.jpeg';
+import gideon from '../res/gideon.jpeg';
+import terry from '../res/terry.jpeg';
+import scott from '../res/scott.jpeg';
+import krista from '../res/krista.jpeg';
+import vera from '../res/vera.jpeg';
+import shayla from '../res/shayla.jpeg';
 
 
 const Image = ({name}) => {
@@ -28,6 +35,22 @@ const Image = ({name}) => {
     return (<img className='pv2 db no-underline black center' alt='joanna' src={joanna}/>);
   else if(name.toLowerCase().includes('tyrell'))
     return (<img className='pv2 db no-underline black center' alt='tyrell' src={tyrell}/>);
+  else if(name.toLowerCase().includes('whiterose'))
+    return(<img className='pv2 db no-underline black center' alt='whiterose' src={whiterose} />);
+  else if(name.toLowerCase().includes('susan'))
+    return(<img className='pv2 db no-underline black center' alt='whiterose' src={susan} />);
+  else if(name.toLowerCase().includes('gideon'))
+    return(<img className='pv2 db no-underline black center' alt='whiterose' src={gideon} />);
+  else if(name.toLowerCase().includes('terry'))
+    return(<img className='pv2 db no-underline black center' alt='whiterose' src={terry} />);
+  else if(name.toLowerCase().includes('scott'))
+    return(<img className='pv2 db no-underline black center' alt='whiterose' src={scott} />);
+  else if(name.toLowerCase().includes('krista'))
+    return(<img className='pv2 db no-underline black center' alt='whiterose' src={krista} />);
+  else if(name.toLowerCase().includes('vera'))
+    return(<img className='pv2 db no-underline black center' alt='whiterose' src={vera} />);
+  else if(name.toLowerCase().includes('shayla'))
+    return(<img className='pv2 db no-underline black center' alt='whiterose' src={shayla} />);
   else
     return(<img className='pv2 db no-underline black center' alt='error' src={whiterose} />);
 }
