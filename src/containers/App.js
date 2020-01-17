@@ -4,6 +4,7 @@ import SearchBox from '../components/SearchBox';
 import './App.css';
 import Scroll from '../components/Scroll';
 import { robots } from '../robots';
+import ErrorBoundary from '../components/ErrorBoundary';
 
 //Lifecycle hooks are built in with react, they get run everytime a component does something, the three types are:
 //1. mounting
@@ -50,7 +51,9 @@ class App extends React.Component {
           <h1 className='f1'>Mr. Robot and Friends</h1>
           <SearchBox searchChange={this.onSearchChange}/>
           <Scroll>
-            <CardList robots={filteredRobots}/>
+            <ErrorBoundary>
+              <CardList robots={filteredRobots}/>
+            </ErrorBoundary>
           </Scroll>
         </div>
       );
