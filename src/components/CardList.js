@@ -1,5 +1,6 @@
 import React from 'react';
 import Card from './Card';
+import WikiLink from './WikiLink';
 
 const CardList = ({ robots }) => {
   return (
@@ -7,13 +8,15 @@ const CardList = ({ robots }) => {
       {
         robots.map((user, i) => {
           return (
-            <Card
-              key={robots[i].id}
-              id={robots[i].id}
-              name={robots[i].name}
-              username={robots[i].username}
-              source={robots[i].source}
-            />
+            <WikiLink nameLink={robots[i].name} robots={robots}>
+              <Card
+                key={robots[i].id}
+                id={robots[i].id}
+                name={robots[i].name}
+                username={robots[i].username}
+                source={robots[i].source}
+              />
+            </WikiLink>
           );
         })
       }
