@@ -9,7 +9,6 @@ import price from '../res/price.jpeg';
 import joanna from '../res/joanna.jpeg';
 import tyrell from '../res/tyrell.jpeg';
 import whiterose from '../res/whiterose.jpeg';
-import susan from '../res/susan.jpeg';
 import gideon from '../res/gideon.jpeg';
 import terry from '../res/terry.jpeg';
 import scott from '../res/scott.jpeg';
@@ -37,8 +36,6 @@ const Image = ({name}) => {
     return (<img className='pv2 db no-underline black center' alt='tyrell' src={tyrell}/>);
   else if(name.toLowerCase().includes('whiterose'))
     return(<img className='pv2 db no-underline black center' alt='whiterose' src={whiterose} />);
-  else if(name.toLowerCase().includes('susan'))
-    return(<img className='pv2 db no-underline black center' alt='whiterose' src={susan} />);
   else if(name.toLowerCase().includes('gideon'))
     return(<img className='pv2 db no-underline black center' alt='whiterose' src={gideon} />);
   else if(name.toLowerCase().includes('terry'))
